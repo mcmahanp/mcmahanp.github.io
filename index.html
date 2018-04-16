@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <link rel=stylesheet type="text/css" href="style.css"/>
+  <link href='http://fonts.googleapis.com/css?family=Anaheim&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <script type="text/javascript">
+    window.onload = function (){
+       var addressCleaner = function (){
+          this.href = this.href.split("?")[0].replace("REMOVEME", "");
+          this.onclick = function (){};
+          this.oncontextmenu = function (){};
+       };
+       var links = document.getElementsByTagName("a");
+       for (var i=0; i < links.length; i++){
+          if(links[i].href.indexOf("REMOVEME") !== -1){
+             links[i].onclick = addressCleaner;
+             links[i].oncontextmenu = addressCleaner;
+          }
+       }
+    };
+  </script>
+
+  <title>Peter McMahan</title>
+</head>
+<body>
+    <div id="title_block">
+        <h1 class="title_h1">Peter McMahan</h1>
+        <h3 class="title_h3">PhD Student</h3> 
+        <h3 class="title_h3"><a href="http://sociology.uchicago.edu">Department of Sociology</a></h3>
+        <h3 class="title_h3">University of Chicago</h3>
+    </div>
+    <div id="main">
+
+        <div class="main_item">
+            <div class="main_itemheader">
+                <h3>Research</h3>
+            </div>
+            <div class="main_itembody">
+                <p>
+                    My work examines the creation and negotiation of knowledge communities. I look at the role of structure, medium and social institutions in determining the coherence of shared bodies of knowledge.
+                </p>
+                <p>
+                    I focus on mathematical, statistical and computational methods, including network analysis, Bayesian inference, stochastic modeling, and (occasionally) agent-based models.
+                </p>
+            </div>
+        </div>
+
+        <div class="main_item">
+            <div class="main_itemheader">
+                <h3>Teaching</h3>
+            </div>
+            <div class="main_itembody">
+                <p>I regularly co-teach (with <a href="http://home.uchicago.edu/~mcc">Michael Castelle</a>) an interdisciplinary course at the University of Chicago on computational methods for the social sciences. The course&rsquo;s most recent syllabus can be found <a href='http://cfss.uchicago.edu/'>on the course website</a>.</p>
+                <p>I have also been a TA for a number of courses, including Statistical Methods of Research (with Stephen Raudenbush), Internet and Society (with James Evans), and Content Analysis (with James Evans)</p>
+            </div>
+        </div>
+
+        <div class="main_item">
+            <div class="main_itemheader">
+                <h3>Curriculum Vitae</h3>
+            </div>
+            <div class="main_itembody">
+                <p><a href="cv.html">View my CV online</a>, or <a href="mcmahan_cv.pdf">download a PDF here</a>.</p>
+            </div>
+        </div>
+
+        <div class="main_item">
+            <div class="main_itemheader">
+                <h3>Contact</h3>
+            </div>
+            <div class="main_itembody">
+                <p><a href="mailto:mcmahanREMOVEME@uchicago.edu">
+                [my last name] at uchicago.edu</a></p>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
