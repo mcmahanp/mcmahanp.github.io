@@ -5,79 +5,64 @@
   <meta http-equiv="Content-Style-Type" content="text/css" />
   <link rel=stylesheet type="text/css" href="style.css"/>
   <link href='https://fonts.googleapis.com/css?family=Anaheim&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-  <script type="text/javascript">
-    window.onload = function (){
-       var addressCleaner = function (){
-          this.href = this.href.split("?")[0].replace("REMOVEME", "");
-          this.onclick = function (){};
-          this.oncontextmenu = function (){};
-       };
-       var links = document.getElementsByTagName("a");
-       for (var i=0; i < links.length; i++){
-          if(links[i].href.indexOf("REMOVEME") !== -1){
-             links[i].onclick = addressCleaner;
-             links[i].oncontextmenu = addressCleaner;
-          }
-       }
-    };
-  </script>
 
   <title>Peter McMahan</title>
 </head>
 <body>
-    <div id="title_block">
-        <h1 class="title_h1">Peter McMahan</h1>
-        <h3 class="title_h3">Postdoctoral Scholar</h3> 
-        <!--<h3 class="title_h3"><a href="http://sociology.uchicago.edu">Department of Sociology</a></h3>-->
-        <h3 class="title_h3">Stanford University</h3>
+    <div class="container">
+    <div class="item_title">
+        <h1>Peter McMahan</h1>
+        <h4>Assistant Professor</h4> 
+        <h4><a href="https://www.mcgill.ca/sociology/faculty/peter-mcmahan">Department of Sociology</a></h4>
+        <h4>McGill University</h4>
     </div>
-    <div id="main">
+    <img class="photo" src="mcmahan_pic_0.jpg">
 
-        <div class="main_item">
-            <div class="main_itemheader">
-                <h3>Research</h3>
-            </div>
-            <div class="main_itembody">
-                <p>
-                    My work examines the creation and negotiation of knowledge communities. I look at the role of structure, medium and social institutions in determining the coherence of shared bodies of knowledge.
-                </p>
-                <p>
-                    I focus on mathematical, statistical and computational methods, including network analysis, Bayesian inference, stochastic modeling, and (occasionally) agent-based models.
-                </p>
-            </div>
-        </div>
+  <div class="item_title">
+      <h3>Research</h3>
+  </div>
+  <div class="item_cont">
+      <p>
+          My research centers on the ways that communication informs and reinforces hierarchy and authority in varied social settings. I specializes in statistical modeling and computational methodologies, with particular focus on network analysis and emerging methods for social inference on large, unstructured data sets.
 
-        <!--
-        <div class="main_item">
-            <div class="main_itemheader">
-                <h3>Teaching</h3>
-            </div>
-            <div class="main_itembody">
-                <p>I regularly co-teach (with <a href="http://home.uchicago.edu/~mcc">Michael Castelle</a>) an interdisciplinary course at the University of Chicago on computational methods for the social sciences. The course&rsquo;s most recent syllabus can be found <a href='http://cfss.uchicago.edu/'>on the course website</a>.</p>
-                <p>I have also been a TA for a number of courses, including Statistical Methods of Research (with Stephen Raudenbush), Internet and Society (with James Evans), and Content Analysis (with James Evans)</p>
-            </div>
-        </div>
-        -->
+      </p>
+      <p>&nbsp</p>
+      <p>
+           Currently, I am working on several projects relating to communication in academic contexts. One line of research examines the role of individual journal publications in the structuring of scholarly fields. This work finds that particular modes of publication (e.g. review articles) have far-reaching effects on the form and focus of future research. A separate research agenda is concerned with the effects of ambiguous academic language on intellectual discourse, arguing that imprecision in communication can have a cohering effect on a community of scholars and lead to more engaged and fruitful scientific outcomes.
+      </p>
+  </div>
 
-        <div class="main_item">
-            <div class="main_itemheader">
-                <h3>Curriculum Vitae</h3>
-            </div>
-            <div class="main_itembody">
-                <p><a href="cv.html">View my CV online</a>, or <a href="mcmahan_cv.pdf">download a PDF here</a>.</p>
-            </div>
-        </div>
+  <div class="item_title">
+      <h3>Teaching</h3>
+  </div>
+  <div class="item_cont">
+      <p><b><a href="https://mcmahanp.github.io/soci210/" target="_blank">Sociological Perspectives (SOCI 210):</a></b> Undergraduate introduction to sociological analysis.</p>
+      <p><b><a href="https://mcmahanp.github.io/soci620/" target="_blank">Quantitative Methods 2 (SOCI 620):</a></b> A graduate-level course in multilevel and generalized linear models models from a Bayesian perspective.</p>
+  </div>
 
-        <div class="main_item">
-            <div class="main_itemheader">
-                <h3>Contact</h3>
-            </div>
-            <div class="main_itembody">
-                <p><a href="mailto:mcmahanpREMOVEME@stanford.edu">
-                [my last name and first initial] at stanford.edu</a></p>
-            </div>
-        </div>
+  <div class="item_title">
+      <h3>Talks</h3>
+  </div>
+  <div class="item_cont">
+      <p>Conference and workshop slides are available from <a href="https://github.com/mcmahanp/talks">my github repo</a>.</p>
+  </div>
 
-    </div>
+
+  <div class="item_title">
+      <h3>Curriculum Vitae</h3>
+  </div>
+  <div class="item_cont">
+      <p><a href="cv.html">View my CV online</a>, or <a href="mcmahan_cv.pdf">download a PDF here</a>.</p>
+  </div>
+
+  <div class="item_title">
+      <h3>Contact</h3>
+  </div>
+  <div class="item_cont">
+      <p><a href="mailto:peter.mcmahan@mcgill.ca">
+      peter.mcmahan@mcgill.ca</a></p>
+  </div>
+
+</div>
 </body>
 </html>
