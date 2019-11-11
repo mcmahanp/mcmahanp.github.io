@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/mcmahan
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://petermcmahan.com
+  * I am mcmahan (https://keybase.io/mcmahan) on keybase.
+  * I have a public key ASCY88OX0tDnKgudyakszYaIALDnbB-TvqzxSzDgEKKvuwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012098f3c397d2d0e72a0b9dc9a92ccd868800b0e76c1f93beacf14b30e010a2afbb0a",
+      "host": "keybase.io",
+      "kid": "012098f3c397d2d0e72a0b9dc9a92ccd868800b0e76c1f93beacf14b30e010a2afbb0a",
+      "uid": "00b023d714b4d39a820ff4c2a8e7e619",
+      "username": "mcmahan"
+    },
+    "merkle_root": {
+      "ctime": 1573493998,
+      "hash": "4c97e2c17120294c358e51d49e4328c29e8d1916a88d3a5540cdc898fc390474b3a66e90ca1adb170d51b4ba435b9eeb741db9e59a0d81c11b52018311d3f0b3",
+      "hash_meta": "2dc9b264235e9c4b27bd5787ecc2e8d1b864e615769f69d9dd9554eaf5565019",
+      "seqno": 9164845
+    },
+    "service": {
+      "entropy": "AztEBUs+RBop4OIdnP5oxbRr",
+      "hostname": "petermcmahan.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.7.2"
+  },
+  "ctime": 1573494008,
+  "expire_in": 504576000,
+  "prev": "f8e78b8f3b1fe8f58292f5cfadf960e9bba608100e8f0f8635c8ba912b018f63",
+  "seqno": 11,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgmPPDl9LQ5yoLncmpLM2GiACw52wfk76s8Usw4BCir7sKp3BheWxvYWTESpcCC8Qg+OeLjzsf6PWCkvXPrflg6bumCBAOjw+GNci6kSsBj2PEII7m46NmUjnnZBDs5Ym3HDlzjxxt0SjBj5ygng/Xc8hiAgHCo3NpZ8RAxwkfnR7iKO2cuStuqAVyZ8KipphyNvq273UzYLCZvjC7K6WYEa1OT3j7lsS3j7tHeOEETHsFu8Eiik69Q9B2D6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEILQHm/G2V8+B4KoXIG2ZqP+Pw4w0rcUGH+BOnIffojevo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mcmahan
+
+==================================================================
