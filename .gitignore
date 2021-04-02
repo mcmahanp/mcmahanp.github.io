@@ -9,3 +9,6 @@ Icon
 
 # Thumbnails
 ._*
+
+# Local Netlify folder
+.netlify
