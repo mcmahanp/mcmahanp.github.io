@@ -35,6 +35,26 @@ a:hover {
 }
 
 
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+    padding-left: 25px;
+    text-indent: -20px;
+}
+
+li:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+
+.fa {
+    text-indent: 0;
+}
+
 img.photo {
     height: 100px;
     padding-left: 10px;
