@@ -11,6 +11,12 @@ Media-specific styling
         margin: 0 1in 0 1in;
         font-size:9pt;
     }
+    #supervision-and-mentorship li {
+        margin-bottom:-10pt;
+    }
+    section {
+        margin-bottom:-0.5em;
+    }
 }
 @media screen{
     body{
@@ -369,8 +375,9 @@ Invited talks
 #invited-talks h2{
     font-size:100%;
     padding-left:2em;
-    margin-bottom:-.5em;
+    margin-bottom:-1em;
     font-weight: 600;
+    width:60%;
 }
 #invited-talks dt{
     width:45%;
@@ -428,8 +435,8 @@ Supervision
 }
 #supervision-and-mentorship li{
     padding-left:5em;
-    text-indent:-2em;
-    padding-bottom:.4lh;
+    text-indent:-1em;
+    padding-bottom:.2lh;
     list-style-type: none;
     font-weight:600;
 }
@@ -480,7 +487,7 @@ Academic service
     width:80%;
 }
 #academic-service ul>li{
-    padding-bottom:1em;
+    padding-bottom:.5em;
     text-indent: -1em
 }
 
